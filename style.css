@@ -633,7 +633,7 @@ h5.pogress-title {
   background-color: #ffac3c;
   position: absolute;
   height: .2rem;
-  width: 11rem;   
+  width: 100%;     
   top: 4.6rem;    
   left: 0;
   transform: scaleX(0);         
