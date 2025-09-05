@@ -10,6 +10,8 @@ body{
 }
 html{
     font-size: 10px;
+    overflow-x: none;
+    scroll-behavior: smooth;
 }
 .hero-header{
     font-family:"Roboto";
@@ -226,7 +228,7 @@ html{
     margin:1.2rem 0;
 }
 .person-info-wrapper div p{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .person-info-wrapper div p:first-child{
     color: #00000057;
@@ -317,6 +319,7 @@ html{
     border: 1px solid white;
 }
 .content-dispaly-card-text p{
+    font-size: 1.4rem;
     color: #00000057;
     text-transform: uppercase;
     padding-top: .8rem;
@@ -365,14 +368,14 @@ html{
 
 .profile-text-content h2{
     text-transform: uppercase;
-    margin-bottom: 1.2rem;
+    
 }
 .profile-text-content{
    
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap:0.8rem
+    gap:1.4rem
 }
 .profile-text-content p{
     display: flex;
@@ -409,7 +412,7 @@ html{
 }
 .profile-card span{
     font-weight: 500;
-    color: #00000057;
+    color: #00000094;
     text-transform: capitalize;
 }
 /*  */
@@ -436,14 +439,9 @@ html{
 }
 
 
-.progress-circle {
-    position: relative;
-    width: 10rem;
-    height: 10rem;
-}
 
 .progress-circle::before {
-    background-color: #ffffff2b;
+    background-color: #ffffff5e;
     position: absolute;
     border-radius: 50%;
     content: "75%";
@@ -459,7 +457,7 @@ html{
 
 
 .progress-desc {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     font-weight: 300;
     color: #ffffff8b;
 }
@@ -503,12 +501,16 @@ h5.pogress-title {
     border-left: 5px solid #ffac3c;
 }
 .btn-primary-big{
+    display: inline-block;
+    width: 80%;
+   
     border: none;
-    padding: .7rem .5rem;
+    padding: .5rem .3rem;
     font-size: 1.8rem;
     background-color: #ffac3c;
     color: #fff;
     border-radius: .3rem;
+     font-weight: 400;
 }
 
 .activity-section {
@@ -519,7 +521,6 @@ h5.pogress-title {
    
 }
 .activity-section h3{
-  
     font-size: 1rem;
     font-weight: 300;
     color: #000000a3;
@@ -671,4 +672,19 @@ button{
 }
 .left-contaienr svg:hover{
     cursor: pointer;
+}
+/*  */
+.left-contaienr{
+    margin: 0;
+}
+.Navigation-bar{
+    border-left: 1px solid #00000023;
+    margin-left: 31.45%;
+    padding-left:10px
+}
+.Navigation-bar button{
+    margin-right: 70px;
+}
+.numberd-tittle{
+    padding-right: 24px;
 }
